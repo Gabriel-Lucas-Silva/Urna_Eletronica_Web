@@ -1,0 +1,200 @@
+body{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222;
+}
+
+
+.urna{
+    background-color: #dbd5c9;
+    border: solid #111 0.1vw; border-radius: 1vw;
+    width: 80vw; height: 35vw;
+    margin: 0; margin-top: 5vw;
+    position: relative;
+    box-sizing: border-box;
+    padding: 3vw;
+    display: flex;
+    
+
+}
+
+.tela{
+    background: linear-gradient( to right, #e8e8e8, #c1c1c1);
+    border: solid #555 0.2vw; border-radius: 0.5vw;
+    width: 50vw; height: 29vw;
+    margin-right: 3vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.teclado{
+    background-color: #403a3a;
+    border: solid 0.2vw black; border-radius: 0.5vw;
+    height: 26vw;
+}
+
+.tlinha{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.tbotao{
+    width: 6vw; height: 2.8vw;
+    background-color: #222; border-radius: 0.3vw;
+    border: solid 0.05vw black;
+    box-shadow: 0.15vw 0.15vw 0vw #555;
+    color: white;
+    font-size: 2vw;
+    margin: 1.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.tbbranco{
+    background-color: white;
+    color: black;
+    font-size: 1.2vw;
+}
+
+.tbcorrige{
+    background-color: yellow;
+    color: black;
+    font-size: 1.2vw;
+}
+
+.tbconfirma{
+    background-color: green;
+    color: black;
+    font-size: 1.2vw;
+    width: 7.8vw; height: 3.4vw;
+}
+
+.d1{
+    flex: 1;
+    display: flex;
+}
+
+.d1e{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1vw;
+}
+
+.d1svp{
+    width: 15vw; height: 3vw;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.d1cargo{
+    width: 99%; height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.d1numero{
+    width: 99%; height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.numero{
+    width: 2vw; height: 3vw;
+    border: 0.2vw solid black;
+    margin: 0.2vw;
+    font-weight: bold;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+@keyframes pisca {
+    0%{opacity: 0.2;}
+    50%{opacity: 1;}
+    100%{opacity: 0.2;}
+}
+
+.pisca{
+    animation-name: pisca;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.d1info{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    line-height: 2vw;
+    font-weight: bold;
+}
+
+.vnulobranco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.d1d{
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.img{
+    height: 13vw;
+    border: 0.1vw solid black;
+    background-color: white;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.img.small{
+    width: 90%;
+    height: 11vw;
+    font-size: 0.9vw;
+}
+
+.d2{
+    width: 99%; height: 3.5vw;
+    color: black;
+    border-top: solid 0.2vw black;
+    font-size: 0.9vw;
+    padding-left: 0.4vw ;
+}
+
+.fim{
+    font-size: 10vw;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 29vw;
+}
+
+.votou{
+    font-size: 3vw;
+    font-weight: bold;
+    color: #888;
+    position: absolute;
+    bottom: 0.3vw;
+    right: 1vw;
+    
+}
