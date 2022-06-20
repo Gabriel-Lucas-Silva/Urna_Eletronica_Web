@@ -8,4 +8,6 @@ As etapas de votação podem ser modificadas para atender a uma necessidade espe
 
 O usuário pode digitar o número associado a algum candidato, para a ele atribuir seu voto, votar em branco ou anular seu voto.
 
+Pode-se coletar o histórico de votos da urna pelo array de votos.
+
 *Esse projeto foi desenvolvido a partir do vídeo "3 Projetos p/ Portfólio em Javascript para Iniciantes", disponibilizado no Youtube, no canal "Bonieky Lacerda"*
