@@ -1,5 +1,6 @@
 # Urna_Eletronica_Web
 Projeto de Simulador de Urna Eletrônica em Javascript, permitindo que o usuário simule um processo de votação semelhante ao executado nas eleições brasileiras. 
+
 As etapas de votação podem ser modificadas para atender a uma necessidade específica de:
  - Quantidade e título de cargos a serem escolhidos;
  - Quantidade de algarismos que irão formar o número eleitoral associado a cada cargo;
